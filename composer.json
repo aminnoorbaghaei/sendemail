@@ -1,0 +1,27 @@
+{
+    "name": "aminnourbaghaei/sendemail",
+    "description": "send email in cms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "amin nourbaghaei",
+            "email": "noorbaghaei.a2017@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+
+        "psr-4": {
+            "aminnourbaghaei\\sendemail\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "aminnourbaghaei\\sendemail\\SendemailServiceProvider"
+            ]
+        }
+    }
+}
